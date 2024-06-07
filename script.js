@@ -6,20 +6,20 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que você liga a tv se depara com as noticias que contam sobre os desmatamentos e como isso afeta o clima e suas consequências, pois com o desmatamento de florestas vai provocar um aquecimento global muito mais intenso do que o estimado, devido às alteraçoẽs nas emissoẽs de compostos orgânicos voláteis e as co-emissões de dióxido de carbono com gasas reativos e gases de efeito estufa de meia-vida curta.",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Ficou com medo do que poderia acontecer futuramente. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Não é interessante",
+                afirmacao: "Desliga a tv e segue seu dia."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Com a agravação cada vez mais das queimadas e desmatamentos de outras formas, um grupo de pesquisadores calculou a forçante radiativa do desmatamento, levando em conta não somente o CO2 emitido, mas também o metano, o black carbon, a alteração no albedo de superfície e todos os efeitos radiativos conhecidos. O resultado final aponta que a temperatura vai subir mais do que o previsto anteriormente. As pessoas responsáveis na sua cidde se comoveram em ajudar com a conscientização contra o desmatamento ",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
