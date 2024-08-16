@@ -19,33 +19,33 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Com a agravação cada vez mais das queimadas e desmatamentos de outras formas, um grupo de pesquisadores calculou a forçante radiativa do desmatamento, levando em conta não somente o CO2 emitido, mas também o metano, o black carbon, a alteração no albedo de superfície e todos os efeitos radiativos conhecidos. O resultado final aponta que a temperatura vai subir mais do que o previsto anteriormente. As pessoas responsáveis na sua cidde se comoveram em ajudar com a conscientização contra o desmatamento ",
+        enunciado: "Com a agravação cada vez mais das queimadas e desmatamentos de outras formas, um grupo de pesquisadores calculou a forçante radiativa do desmatamento, levando em conta não somente o CO2 emitido, mas também o metano, o black carbon, a alteração no albedo de superfície e todos os efeitos radiativos conhecidos. O resultado final aponta que a temperatura vai subir mais do que o previsto anteriormente. As pessoas responsáveis na sua cidade se comoveram em pedir ajuda com a conscientização contra o desmatamento ",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Ajuda com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Após a elaboração das hipóteses para ajudar a conscientização, foi realizado um debate para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impactará o futuro. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Defende a ideia de que a IA pode criar novas formas de ajudar o meio ambiente e melhorar habilidades humanas.",
+                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos com IA."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Me preocupo com as pessoas e o que farão com as máquinas e defendem a importância de proteger os seres pensantes.",
+                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos para discutir meios de utilização de IA de forma ética."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que está acontecendo com o meio ambiente agora. E agora?",
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
@@ -58,7 +58,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você tem uma palestra em grupo a fazer sobre o desmatamento para apresentar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que a palestra está totalmente igual ao do chat. O que você faz? ",
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2025...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
