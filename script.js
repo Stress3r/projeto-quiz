@@ -19,14 +19,14 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Com a agravação cada vez mais das queimadas e desmatamentos de outras formas, um grupo de pesquisadores calculou a forçante radiativa do desmatamento, levando em conta não somente o CO2 emitido, mas também o metano, o black carbon, a alteração no albedo de superfície e todos os efeitos radiativos conhecidos. O resultado final aponta que a temperatura vai subir mais do que o previsto anteriormente. As pessoas responsáveis na sua cidade se comoveram em pedir ajuda com a conscientização contra o desmatamento ",
+        enunciado: "Com a agravação cada vez mais das queimadas e desmatamentos, um grupo de pesquisadores calculou a forçante radiativa do desmatamento, levando em conta não somente o CO2 emitido, mas também o metano, a alteração no albedo de superfície e todos os efeitos radiativos conhecidos. O resultado final aponta que a temperatura vai subir mais do que o previsto anteriormente. As pessoas responsáveis na sua cidade se comoveram em pedir ajuda com a conscientização contra o desmatamento eles utilizam de: ",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utilizam uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes e explique numa linguagem que facilite o entendimento.",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
             },
             {
-                texto: "Ajuda com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
